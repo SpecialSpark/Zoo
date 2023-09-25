@@ -10,6 +10,8 @@ public class App {
          *TODO make AnimalExhibit that extends Exhibit */
         CanisExhibit canisExhibit = new CanisExhibit();
 
+        zoo.getExhibitList().add(canisExhibit);
+
 
         /*TODO make Canis that extends Animal*/
         Canis hyena = new Canis();
