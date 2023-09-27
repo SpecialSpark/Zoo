@@ -1,4 +1,4 @@
-package Zoo.exhibits;
+package exhibits;
 
 public enum ExhibitType {
     ANIMAL,
