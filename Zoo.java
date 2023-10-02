@@ -1,7 +1,7 @@
-package Zoo;
+
 
 import java.util.ArrayList;
-import Zoo.exhibits.Exhibit;
+import exhibits.Exhibit;
 
 public class Zoo {
 
