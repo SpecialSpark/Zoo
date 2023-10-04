@@ -1,6 +1,7 @@
 
 
 import java.util.ArrayList;
+import java.util.List;
 import exhibits.Exhibit;
 
 public class Zoo {
@@ -15,12 +16,12 @@ public class Zoo {
 
     private static Zoo zoo;
 
-    public ArrayList<Exhibit> exhibitList = new ArrayList<>();
+    public List<Exhibit> exhibitList = new ArrayList<>();
 
     private Zoo(){
     }
 
-    public ArrayList<Exhibit> getExhibitList(){
+    public List<Exhibit> getExhibitList(){
         return exhibitList;
     }
 }
