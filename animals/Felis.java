@@ -1,9 +1,10 @@
 package animals;
 
-public class Canis extends Animal{
+public class Felis extends Animal{
+
     public String furCoat;
     
-    public Canis(String name, String species, String furCoat){
+    public Felis(String name, String species, String furCoat){
         super(name,species);
         this.furCoat = furCoat;
         this.diet = Diet.CARNIVORE;
